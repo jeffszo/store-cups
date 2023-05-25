@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: 1.5;
+}
+
+/* Header da página */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 4% 0 3%;
+}
+
+ul{
+    margin: 1rem 0 0 0;
+    display: flex;
+}
+
+li {
+    padding: 0 1rem 0 1rem;
+    list-style-type: none;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+}
+
+li:hover{
+    opacity: 0.7;
+}
+
+
+.fa-solid{
+    font-size: 1.6rem;
+    margin: 0.6rem;
+}
+
+
+
+/* Conteúdo principal da página */
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+}
+
+.descricao{
+    margin: 1.4rem;
+    width: 200px;
+}
+
+
+.paragrafo1{
+    font-size: 6.5rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    margin-top: 11%;
+}
+
+.conceito{
+    font-size: 1.9rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+#cacto{
+    height: 380px;
+    width: 300px;
+}
+
+#detalhes{
+    margin: 0.6rem 0 0 0;
+    padding: 0.2rem;
+    border-radius: 0.7rem;
+    width: 8rem;
+    background-color:#000000;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'Secular One', sans-serif;
+}
+
+#detalhes:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000000;
+    transition: 0.5s;
+}
+
+/* Sessão sobre a loja */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    opacity: 0.9;
+    font-size: 1.3rem;
+    background-image: url(./images/cacto-background.jpg);
+}
+
+.p-about{
+    margin: 10rem 0 0 0 ;
+}
+
+.p-about p {
+    color: #000000;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Sessão sobre os produtos */
+.produtos{
+   height: 30rem;
+}
+
+.t-produtos{
+    padding-top: 2rem;
+}
+
+.t-produtos	h2{
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+.cactos-trico{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cactos-trico img {
+    width: 300px;
+    height: 300px;
+    padding: 2rem;
+}
+
+h2 span{
+    color: #74c69d;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preco{
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.4rem;
+}
+
+.carrinho{
+    border-radius: 25px;
+    background-color: #000000;
+    width: 14rem;
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.carrinho:hover{
+    transition: 0.5s;
+    background-color: #fff;
+    color: #000000;
+}
+
+/* Sessão sobre contatos */
+.contatos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 8rem 0 0 0;
+}
+
+.contatos h2{
+    font-size: 1.6rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+.rede{
+    font-size: 1.6rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+input,
+select{
+    padding: 0.6rem;
+    background-color: #dde5b6;
+    border: #dde5b6;
+    margin-bottom: 1.8rem;
+}
+
+
+textarea{
+    background-color: #dde5b6;
+    margin: 0 0 1rem 0;
+}
+
+#enviar{
+    font-size: 1rem;
+    font-family: 'Secular One', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    margin: 0 0 0 16rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+#enviar:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000000;
+    transition: 0.5s;
+}
