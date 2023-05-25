@@ -27,6 +27,12 @@ li {
     list-style-type: none;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
+   
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
 }
 
 li:hover{
