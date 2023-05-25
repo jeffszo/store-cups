@@ -23,7 +23,7 @@ ul{
 }
 
 a{
-    list-style-type: none;
+    text-decoration: none;
     color: #000000;
 }
 
@@ -162,7 +162,7 @@ h3 span{
 .carrinho{
     border-radius: 25px;
     background-color: #000000;
-    width: 10rem;
+    width: 15rem;
     color: #fff;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
