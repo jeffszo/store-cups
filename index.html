@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/fbabd35e4c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,11 @@
 <body>
     <header>
         <nav class="navbar">
+            <i class="fa-sharp fa-solid fa-bars" style="color: #000000; display: none" ></i>
             <div class="title">
                 <h1>CUPS.</h1>
             </div>
             <ul>
-<<<<<<< HEAD
                 <a href="#sobre">
                     <li>About</li>
                 </a>
@@ -34,11 +34,6 @@
                 <a href="#contatos">
                     <li>Contact</li>
                 </a>
-=======
-                <a href = "#about"><li>About</li></a>
-                <a href = "#products"><li>Products</li></a>
-                <a href = "#contact"><li>Contact</li></a>
->>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
             </ul>
             <div class="icons">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -59,25 +54,17 @@
     <div class="descricao">
         <p class="conceito">Cacto decorativo em tricô manual. Perfeito para pessoas que, assim como eu, não possuem dedo
             verde e acabam matando plantinhas inocentes.</p>
-        <button id="detalhes">
+        <button id="detalhes" id="modal-js-example" data-target="modal-js-example">
             ver detalhes
         </button>
     </div>
 </main>
-<<<<<<< HEAD
 <section class="sobre" id="sobre">
-=======
-<section class="sobre" id = "about">
->>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <div class="p-about">
         <p>Desafiando a aridez do mundo, florescemos como cactos, repletos de espinhos e beleza única.</p>
     </div>
 </section>
-<<<<<<< HEAD
 <section class="produtos" id="produtos">
-=======
-<section class="produtos" id = "products">
->>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <div class="t-produtos">
         <h5>O que temos para os nossos <span>cactolovers</span></h5>
     </div>
@@ -122,11 +109,7 @@
     </div>
 </section>
 <hr>
-<<<<<<< HEAD
 <section class="contatos" id="contatos">
-=======
-<section class="contatos" id = "contact">
->>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <h2>Entre em contato conosco!</h2>
     <form onsubmit="validarForm()">
         <label for="">Nome:</label>
@@ -142,6 +125,18 @@
             <option value="">Google</option>
             <option value="">Outros</option>
         </select>
+        <h4>Qual foi a sua experiência com o site?</h4>
+        <div class="checkbox-container">
+            <label for=""> Ruim
+                <input type="checkbox" id="">
+            </label>
+            <label for=""> Boa
+                <input type="checkbox" id="">
+            </label>
+            <label for=""> Excelente
+                <input type="checkbox" id="">
+            </label>
+        </div>
         <textarea id="mensagem" cols="80" rows="10" placeholder="Deixe sua mensagem" required></textarea>
         <button type="submit" id="enviar">Enviar</button>
     </form>
@@ -154,5 +149,5 @@
 <footer>    
     <p>Desenvolvido por Jeferson Ferreira &copy;</p>
 </footer>
-<script src="script.js"></script>
+<script src="/js/script.js"></script>
 </html>
