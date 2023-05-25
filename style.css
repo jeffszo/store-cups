@@ -230,3 +230,11 @@ textarea{
     color: #000000;
     transition: 0.5s;
 }
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+    margin: 4rem 0 0 0;
+}
