@@ -127,7 +127,7 @@ main{
     padding-top: 2rem;
 }
 
-.t-produtos	h3{
+.t-produtos	h5{
     text-align: center;
     font-size: 1.9rem;
     font-family: 'Secular One', sans-serif;
@@ -144,7 +144,7 @@ main{
     padding: 2rem;
 }
 
-h3 span{
+h5 span{
     color: #74c69d;
 }
 
