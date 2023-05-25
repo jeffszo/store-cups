@@ -22,6 +22,11 @@ ul{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 li {
     padding: 0 1rem 0 1rem;
     list-style-type: none;
@@ -128,7 +133,7 @@ main{
     padding-top: 2rem;
 }
 
-.t-produtos	h2{
+.t-produtos	h5{
     text-align: center;
     font-size: 1.9rem;
     font-family: 'Secular One', sans-serif;
@@ -137,7 +142,6 @@ main{
 .cactos-trico{
     display: flex;
     justify-content: center;
-    
 }
 
 .cactos-trico img {
@@ -146,7 +150,7 @@ main{
     padding: 2rem;
 }
 
-h2 span{
+h5 span{
     color: #74c69d;
 }
 
@@ -164,7 +168,7 @@ h2 span{
 .carrinho{
     border-radius: 25px;
     background-color: #000000;
-    width: 14rem;
+    width: 15rem;
     color: #fff;
     font-family: 'Secular One', sans-serif;
     cursor: pointer;
@@ -231,4 +235,12 @@ textarea{
     background-color: #fff;
     color: #000000;
     transition: 0.5s;
+}
+
+/* Rodapé */
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+    margin: 4rem 0 0 0;
 }

@@ -24,6 +24,7 @@
                 <h1>CUPS.</h1>
             </div>
             <ul>
+<<<<<<< HEAD
                 <a href="#sobre">
                     <li>About</li>
                 </a>
@@ -33,6 +34,11 @@
                 <a href="#contatos">
                     <li>Contact</li>
                 </a>
+=======
+                <a href = "#about"><li>About</li></a>
+                <a href = "#products"><li>Products</li></a>
+                <a href = "#contact"><li>Contact</li></a>
+>>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
             </ul>
             <div class="icons">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,57 +64,77 @@
         </button>
     </div>
 </main>
+<<<<<<< HEAD
 <section class="sobre" id="sobre">
+=======
+<section class="sobre" id = "about">
+>>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <div class="p-about">
         <p>Desafiando a aridez do mundo, florescemos como cactos, repletos de espinhos e beleza única.</p>
     </div>
 </section>
+<<<<<<< HEAD
 <section class="produtos" id="produtos">
+=======
+<section class="produtos" id = "products">
+>>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <div class="t-produtos">
-        <h2>O que temos para os nossos <span>cactolovers</span></h2>
+        <h5>O que temos para os nossos <span>cactolovers</span></h5>
     </div>
     <div class="cactos-trico">
         <div class="item">
             <img src="./images/cacto-produto1.jpg" alt="">
             <div class="btn">
                 <p class="preco">R$ 15,00</p>
-                <button class="carrinho"><i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho</button>
+                <button class="carrinho">
+                    <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho
+                </button>
             </div>
         </div>
         <div class="item">
             <img src="./images/cacto-produto2.jpg" alt="">
             <div class="btn">
                 <p class="preco">R$ 20,00</p>
-                <button class="carrinho"> <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho</button>
+                <button class="carrinho"> 
+                    <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho
+                </button>
             </div>
         </div>
         <div class="item">
             <img src="./images/cacto-produto3.jpg" alt="">
             <div class="btn">
                 <p class="preco">R$ 25,00</p>
-                <button class="carrinho"> <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho</button>
+                <button class="carrinho"> 
+                    <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho
+                </button>
             </div>
         </div>
         <div class="item">
             <img src="./images/cacto-produto4.jpg" alt="">
             <div class="btn">
                 <p class="preco">R$ 30,00</p>
-                <button class="carrinho"> <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho</button>
+                <button class="carrinho"> 
+                    <i class="fa-solid fa-cart-shopping"></i>Adicionar no carrinho
+                </button>
             </div>
             
         </div>
     </div>
 </section>
 <hr>
+<<<<<<< HEAD
 <section class="contatos" id="contatos">
+=======
+<section class="contatos" id = "contact">
+>>>>>>> 016e5c523c3b567fe52950535828aa341dba1f1b
     <h2>Entre em contato conosco!</h2>
-    <form>
+    <form onsubmit="validarForm()">
         <label for="">Nome:</label>
-        <input type="text" name="" id="nome" placeholder="Informe seu nome">
+        <input type="text" id="nome" placeholder="Informe seu nome" required>
         <label for="">Email:</label>
-        <input type="email" name="" id="email" placeholder="Informe seu email">
+        <input type="email" id="email" placeholder="Informe seu email" required>
         <label for="">Onde nos conheceu?</label>
-        <select name="" id="">
+        <select id="opcao" required>
             <option value="" disabled selected>Escolha uma opção</option>
             <option value="">Facebook</option>
             <option value="">Tik Tok</option>
@@ -116,7 +142,7 @@
             <option value="">Google</option>
             <option value="">Outros</option>
         </select>
-        <textarea name="" id="" cols="80" rows="10" placeholder="Deixe sua mensagem"></textarea>
+        <textarea id="mensagem" cols="80" rows="10" placeholder="Deixe sua mensagem" required></textarea>
         <button type="submit" id="enviar">Enviar</button>
     </form>
     <div class="redes" style="display: none">
@@ -125,5 +151,8 @@
         <i class="fa-brands fa-twitter rede" style="color: #00c4f5;"></i>
     </div>
 </section>
+<footer>    
+    <p>Desenvolvido por Jeferson Ferreira &copy;</p>
+</footer>
 <script src="script.js"></script>
 </html>
