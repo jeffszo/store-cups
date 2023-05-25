@@ -9,6 +9,7 @@ for(let i = 0; i < elementoCarrinho.length; i++){
 }
 
 // Validar formulário //
+function validarForm(){
 var nome;
 var email;
 var mensagem;
@@ -21,12 +22,17 @@ opcao = document.getElementById('opcao');
 
 if(nome.value == ""){
     alert("Informe seu nome! Campo obrigatório")
+    return false
 } else if (email.value == ""){
     alert("Informe seu email! Campo obrigatório")
+    return false
 } else if (mensagem.value == ""){
     alert("Deixe sua mensagem! Campo obrigatório")
+    return false
 } else if (opcao.value == "") {
     alert("Selecione uma opção! Campo obrigatório")
+    return false
 } else{
     alert("Enviado com sucesso!")
+}
 }
