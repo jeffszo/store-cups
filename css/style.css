@@ -105,7 +105,7 @@ main{
     transition: 0.5s;
 }
 
-/* Sessão sobre a loja */
+/* Sessão sobre a loja CUPS*/
 .sobre{
     display: flex;
     flex-direction: column;
