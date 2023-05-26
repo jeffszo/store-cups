@@ -114,7 +114,7 @@ main{
     height: 20rem;
     opacity: 0.9;
     font-size: 1.3rem;
-    background-image: url(/images/cacto-background.jpg);
+    background-image: url(images/cacto-background.jpg);
 }
 
 .p-about{
